@@ -1,0 +1,8 @@
+#define macro MAIN() = {
+    ADD()
+}
+
+#define macro ADD() = takes(2) returns (1) {
+    jumpdest
+    add
+}

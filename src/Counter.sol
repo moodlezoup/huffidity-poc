@@ -9,6 +9,10 @@ contract Counter {
     }
 
     function increment() public {
-        number++;
+        function (uint256, uint256) pure returns (uint256) _add;
+        assembly {
+            _add := sub(codesize(), 2)
+        }
+        number = _add(number, 1);
     }
 }
