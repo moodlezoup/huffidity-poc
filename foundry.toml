@@ -2,5 +2,8 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
-
+bytecode_hash = 'none'
+extra_output = [
+  "evm.deployedBytecode.immutableReferences"
+]
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
